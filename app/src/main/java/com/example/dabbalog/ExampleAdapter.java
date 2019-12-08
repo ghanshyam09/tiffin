@@ -28,7 +28,7 @@ public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ExampleV
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference databaseReference = database.getReference();
 
-    //12
+    //1
     Context context;
 
     public ExampleAdapter(Context context, ArrayList<User>e) {
