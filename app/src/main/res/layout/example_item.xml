@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/cdUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true">
+
+        <Button
+            android:id="@+id/btnIncCount"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="18dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/button_rounded"
+            android:text="+1" />
+
+        <Button
+            android:id="@+id/btnDecCount"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="18dp"
+            android:layout_marginTop="18dp"
+            android:layout_toLeftOf="@id/btnIncCount"
+            android:background="@drawable/button_rounded"
+            android:text="-1" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="202dp"
+            android:layout_marginTop="17dp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "389875496337",
+    "firebase_url": "https://tiffin-35f57.firebaseio.com",
+    "project_id": "tiffin-35f57",
+    "storage_bucket": "tiffin-35f57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389875496337:android:23cc6a930c210b187bd630",
+        "android_client_info": {
+          "package_name": "com.example.dabbalog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389875496337-7hpmoc6ljpm2cha0jtj0ivpll01vaiq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dabbalog",
+            "certificate_hash": "0a55c842012333820a42b6277e539a85c2685de2"
+          }
+        },
+        {
+          "client_id": "389875496337-6bct5vqvslisu9bcm7mdud3tf1vba58f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr64DUJ8tjSD-uRZZwgaMQEAx92g4cpUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389875496337-6bct5vqvslisu9bcm7mdud3tf1vba58f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
